@@ -14,7 +14,7 @@ const App = () => {
 
 
             <div className={'build-block'}>
-                <div className={'prosto'}>
+                <div>
                     <BlockMenu/>
                 </div>
                 <div className={'field-inform'}>
