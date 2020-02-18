@@ -20,7 +20,8 @@ const DataComponentList = (props: any) => {
                 {props.timeSpent}
             </div>
             <div className={'project-info-progress'}>
-                <span className={'style-progress-number'}>{props.progress}% </span><progress value={props.progress} max={100}/>
+                <span className={'style-progress-number'}>{props.progress}% </span>
+                <progress value={props.progress} max={100}/>
             </div>
 
             <div className={'project-info-status'}>
@@ -32,11 +33,9 @@ const DataComponentList = (props: any) => {
 
             </div>
             <div className={'project-info-name'}>
-                {props.assigned ? props.assigned.name : "Djon"
-                }
+                {props.assigned.name}
                 <p className={'project-info'}>
-                    {props.assigned ? props.assigned.position : "Frontend Developer"
-                    }
+                    {props.assigned.position}
                 </p>
             </div>
         </div>
