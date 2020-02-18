@@ -1,50 +1,62 @@
-* {
-  max-width: 1920px;
-  background-color: #2b2d3c; }
-  * ul {
-    list-style: none; }
-
+*{
+max-width: 1920px;
+  background-color: #2b2d3c;
+  ul {
+    list-style: none;
+  }
+}
 /*Fixed block (header, menu)*/
 .top-block {
-  width: 1858px;
+  width: 1920-62px;
   top: 0px;
   height: 96px;
   position: fixed;
-  padding: 31px 31px 0px 31px; }
-  .top-block div {
-    display: inline-block; }
-  .top-block .button-add {
+  padding: 31px 31px 0px 31px;
+  div {
+    display: inline-block;
+
+  }
+
+  .button-add {
     width: 133px;
     height: 48px;
     margin-left: 1269px;
     border-radius: 24px;
-    border: 2px solid #2196f3; }
-    .top-block .button-add span {
-      color: #ffffff;
-      font-family: Montserrat;
-      font-size: 18px;
-      font-weight: 400; }
-  .top-block .logo {
+    border: 2px solid #2196f3;
+  span {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  }
+
+  .logo {
     background-image: url("./assets/image/logo.png");
     background-repeat: no-repeat;
     width: 172px;
-    height: 29px; }
-
+    height: 29px;
+      }
+}
 .block-menu {
   position: fixed;
   width: 96px;
   top: 96px;
-  padding: 0px; }
-  .block-menu li {
-    padding: 0px 35px 75px 34px; }
-  .block-menu i {
+  padding: 0px;
+  li {
+    padding: 0px 35px 75px 34px;
+  }
+  i {
     font-size: 42px;
-    color: #757da4; }
+   color: #757da4;
 
+  }
+}
 .field-inform {
-  margin-left: 96px;
-  margin-top: 288px; }
+margin-left: 96px;
+  margin-top: 192+96px;
 
+}
 /*Block filter projects*/
 .list-component-all {
   width: 1824px;
@@ -52,10 +64,9 @@
   position: fixed;
   top: 96px;
   left: 96px;
-  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
-          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
-  background-color: #2481ce; }
-  .list-component-all a {
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2481ce;
+  a{
     width: 5.625rem;
     height: 0.938rem;
     color: #2b2d3c;
@@ -64,117 +75,143 @@
     font-weight: 400;
     line-height: 5.75rem;
     text-decoration: none;
-    padding-left: 61px; }
-  .list-component-all a:hover {
-    color: white; }
+    padding-left: 61px;
+  }
+  a:hover{
+    color: white;
+  }
+
+}
 
 .list-component {
   width: 1824px;
   position: fixed;
   top: 192px;
   left: 96px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 50px 50px 23px 113px; }
-  .list-component div {
+  justify-content: space-between;
+  padding: 50px 50px 23px 113px;
+
+  div {
     display: inline-block;
     color: #9ea3b4;
     font-family: Montserrat;
     font-size: 1rem;
     font-weight: 400;
-    padding-right: 150px; }
+    padding-right: 150px;
 
+  }
+}
 /*Block consist all projects*/
-.project-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.project-container{
   display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   padding: 27px 0px 0px 52px;
-  width: 1688px;
+  width: 1739-51px;
   border-radius: 5px;
   background-color: #3a3e52;
-  margin: 0px 0px 24px 61px; }
-  .project-container i {
+  margin: 0px 0px 24px 61px;
+  i {
     font-size: 42px;
-    background-color: #3a3e52; }
-  .project-container div {
-    display: inline-block;
-    background-color: #3a3e52; }
-  .project-container .project-info-title {
+    background-color: #3a3e52;
+  }
+
+     div   {
+       display: inline-block;
+       background-color: #3a3e52;
+        }
+
+  .project-info-title{
     width: 222px;
     background-color: #3a3e52;
     color: #fbfbfc;
     font-family: Montserrat;
     font-size: 16px;
-    font-weight: 400; }
-    .project-container .project-info-title p {
+    font-weight: 400;
+
+    p{
       color: #9ea3b4;
       font-family: Montserrat;
       font-size: 14px;
       font-weight: 400;
-      background-color: #3a3e52; }
-  .project-container .project-info-cost {
+      background-color: #3a3e52;
+    }
+  }
+
+  .project-info-cost{
     width: 165px;
     background-color: #3a3e52;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 16px;
-    font-weight: 400; }
-  .project-container .project-info-deadline {
+    font-weight: 400;
+  }
+
+  .project-info-deadline{
     width: 196px;
     background-color: #3a3e52;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
-    margin: 0px; }
-  .project-container .project-info-progress {
+    margin: 0px;
+
+
+  }
+  .project-info-progress {
     width: 388px;
-    background-color: #3a3e52; }
-    .project-container .project-info-progress .style-progress-number {
+    background-color: #3a3e52;
+    .style-progress-number {
       width: 2.563rem;
       height: 0.813rem;
       color: #ffffff;
       font-family: Montserrat;
       font-size: 1rem;
       font-weight: 400;
-      background-color: #3a3e52; }
-    .project-container .project-info-progress progress {
+      background-color: #3a3e52;
+    }
+    progress {
       width: 14.813rem;
       height: 0.5rem;
       border-radius: 0.25rem;
       background-color: #9ea3b4;
-      opacity: 0.3; }
-  .project-container .project-info-time {
+      opacity: 0.3;
+    }
+  }
+  .project-info-time{
     width: 196px;
     background-color: #3a3e52;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 1rem;
-    font-weight: 400; }
-  .project-container .project-info-status {
+    font-weight: 400;
+
+  }
+  .project-info-status{
     width: 210px;
     background-color: #3a3e52;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 1rem;
-    font-weight: 400; }
-  .project-container .project-info-name {
+    font-weight: 400;
+
+  }
+  .project-info-name{
     width: 210px;
     background-color: #3a3e52;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 16px;
-    font-weight: 400; }
-    .project-container .project-info-name p {
+    font-weight: 400;
+
+    p{
       width: 61px;
       color: #9ea3b4;
       font-family: Montserrat;
       font-size: 14px;
       font-weight: 400;
-      background-color: #3a3e52; }
+      background-color: #3a3e52;
+    }
 
-/*# sourceMappingURL=index.css.map */
+  }
+}
+
